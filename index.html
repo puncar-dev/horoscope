@@ -68,7 +68,8 @@
 </head>
 <body>
     <div class="container">
-        <h1>Random Horoscope Generator</h1>
+        <h1>buildspace science fair horoscope generator</h1>
+
         <form>
             <label for="name">Your Name:</label>
             <input type="text" id="name" placeholder="Enter your name">
@@ -128,7 +129,7 @@
             const randomHoroscope = horoscopes[randomIndex];
             
             const horoscopeResult = document.getElementById('horoscopeResult');
-            horoscopeResult.innerHTML = `<p>Hello ${name} (${zodiac}), your horoscope is: ${randomHoroscope}</p>`;
+            horoscopeResult.innerHTML = `<p>Hello ${name}, ${randomHoroscope}</p>`;
         }
     </script>
 </body>
